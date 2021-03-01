@@ -1,7 +1,6 @@
 ## Extractor de Buletine de Avizare Restrictie (BAR)
 ## author: Mihai Croicu
 ## organization: Asociatia Proinfrastructura
-## license: CC-BY-SA 4.0 : https://creativecommons.org/licenses/by-sa/4.0/legalcode
 
 #Cauta ultimul BAR de pe site-ul CFR si il descarca automat.
 #Apoi converteste BAR-ul intr-un format sane, pe care-l salveaza ca CSV si Excel.
