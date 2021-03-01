@@ -18,7 +18,7 @@ pacman::p_load(rvest)
 #Si celelalte pachete expun si ele un read_html.
 
 #1:Bucureşti 2:Braşov 3:Cluj 4:Constanţa 5:Craiova 6:Galaţi 7:Iaşi 8:Timişoara
-oras = 1 
+oras <- 1 
 
 cfr_web <- read_html('http://cfr.ro/index.php/ct-menu-item-105/ct-menu-item-116')
 
@@ -98,7 +98,7 @@ identifica_restrictii <- function(fir){
     identifica_restrictii <- data.frame(r_start = r_start, r_end = r_end)
 }
 
-bar_final = data.frame()
+bar_final <- data.frame()
 for (i in 2:length(lista_linii)) {
     print(paste(i," Extrag : ",lista_linii[i]))
     fir <- scoate_magistrala(i)
@@ -106,11 +106,12 @@ for (i in 2:length(lista_linii)) {
     fir['r_start'] <- restrictii['r_start']
     fir['r_end'] <- restrictii['r_end']
     fir['linie'] <- lista_linii[i]
-    bar_final = rbind(bar_final,fir)
+    bar_final <- rbind(bar_final,fir)
 }
 
-
-bar_final
+print("Gata! \n Primele randuri din setul de date \n**********")
+head(bar_final)
+print("**********")
 
 write_json(bar_final, "bar_extras.json")
 
