@@ -13,7 +13,7 @@ Nu necesita vreo forma de instalare.
 
 # Rulare
 
-- Tot ce trebuie sa faceti este sa rulati `Rscript CFR_BAR_extract.r`. Alternativ, daca doriti rulare interactiva, un notebook `Jupyt
+- Tot ce trebuie sa faceti este sa rulati `Rscript CFR_BAR_extract.r`. Alternativ, daca doriti rulare interactiva si debugging, un notebook `Jupyter Notebook` este furnizat.
 - La prima rulare, `R` isi va instala dependintele folosind managerul de pachete intern si arhiva `CRAN`. Este posibil sa vi se solicite sa selectati un server de download: alegeti oricare server. Instalarea dependintelor poate dura cateva minute, si va afisa foarte mult output. Se va intampla doar la prima rulare.
 - Scriptul este relativ lent. Conversia `DOC` in `DOCX` dureaza undeva la 1-1.5 minute (`soffice` este lent). Citirea si parsarea documentului de catre `R` dureaza, mai apoi, cateva minute (`R` este lent). Nu opriti rularea, merge.
 - Scriptul va da `warning` acolo unde intalneste un caz neimplementat, cel mai comun (adica in 4 locuri in tot BAR-ul) fiind `firul III`, pe care-l umple cu NA-uri pentru ca CFR foloseste o forma de tabel incompatibila. Mesajul `NAs introduced by coercion` se poate ignora fara probleme.
