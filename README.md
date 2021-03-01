@@ -16,8 +16,14 @@ Nu necesita vreo forma de instalare.
 - Tot ce trebuie sa faceti este sa rulati `Rscript CFR_BAR_extract.r`. Alternativ, daca doriti rulare interactiva, un notebook `Jupyt
 - La prima rulare, `R` isi va instala dependintele folosind managerul de pachete intern si arhiva `CRAN`. Este posibil sa vi se solicite sa selectati un server de download: alegeti oricare server. Instalarea dependintelor poate dura cateva minute, si va afisa foarte mult output. Se va intampla doar la prima rulare.
 - Scriptul este relativ lent. Conversia `DOC` in `DOCX` dureaza undeva la 1-1.5 minute (`soffice` este lent). Citirea si parsarea documentului de catre `R` dureaza, mai apoi, cateva minute (`R` este lent). Nu opriti rularea, merge.
-- Scriptul va da `warning` acolo unde intalneste un caz neimplementat, cel mai comun fiind `firul III`. Mesajul `NAs introduced by coercion` se poate ignora fara probleme.
-- Scriptul va produce trei fisiere : `bar_extras.csv` si `bar_extras.json`.
+- Scriptul va da `warning` acolo unde intalneste un caz neimplementat, cel mai comun (adica in 4 locuri in tot BAR-ul) fiind `firul III`, pe care-l umple cu NA-uri pentru ca CFR foloseste o forma de tabel incompatibila. Mesajul `NAs introduced by coercion` se poate ignora fara probleme.
+- Scriptul va produce trei fisiere : `bar_extras.csv` si `bar_extras.json` cu datele parsate si `bar.docx` care este BAR-ul brut.
+
+# Note
+
+As said, este **lent**, dar cum trebuie sa ruleze de 3/luna, este ok. Parserul R de docx este foarte lent, si single core, si nu se poate prespecifica ce sa parseze, pentru ca tot documentul este esential. soffice e foarte lent la conversie si el. Pe sistemul meu, BAR Bucuresti e parsat in 6 min : 13 sec.63 dar YMMV (sistemul nu ar trebui sa conteze; a fost rulat pe un OSX cu 32 GB RAM si i9, dar e single-core si a folosit <400 MB RAM).  
+
+BAR-urile par editate manual de CFR. Desi exista cateva "fallbacks" implementate, pot aparea anumite probleme neprevazute care sa duca la crash. Faceti un issue sau anuntati pe forum. 
 
 # TODO
 
