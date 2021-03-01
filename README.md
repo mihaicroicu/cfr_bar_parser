@@ -19,8 +19,6 @@ Nu necesita vreo forma de instalare.
 - Scriptul va da `warning` acolo unde intalneste un caz neimplementat, cel mai comun fiind `firul III`. Mesajul `NAs introduced by coercion` se poate ignora fara probleme.
 - Scriptul va produce trei fisiere : `bar_extras.csv` si `bar_extras.json`.
 
-Scriptul descarca
-
 # TODO
 
 - Facut sa descarce toate cele 8 BAR-uri si sa faca un singur mare document cu toate magistralele si liniile secundare. [EASY]
