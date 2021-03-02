@@ -11,7 +11,10 @@
 #Pe windows, cat timp merge in powershell curl si soffice, ar *trebui* sa mearga. 
 #Daca nu, Ubuntu subsystem for Windows ar trebui sa mearga.
 
-if (!require("pacman")) install.packages("pacman")
+if (!require("pacman")) {
+    install.packages("pacman")
+    library("pacman")
+    }
 pacman::p_load(tidyverse, docxtractr, textreadr, jsonlite)
 pacman::p_load(rvest)
 #Incarca RVEST la sfarsit. Namespace-ul rvest e busit (R!) asa ca rvest::read_html nu merge
@@ -87,6 +90,11 @@ identifica_restrictii <- function(fir){
     poz_km <- poz_km %>% mutate(borne = str_replace_all(borne,'[[:blank:]|\n]\\([a-zA-Z1-9]*[:blank:]*[a-z1-9]*\\)',''))
     poz_km <- poz_km %>% mutate(borne = str_replace_all(borne,'toată linia','0+000\n0+000'))
     poz_km <- ((poz_km%>%select(borne))[[1]]%>%str_split('\\n', simplify=TRUE))
+    #Fallback  -  daca textul din borna se parseaza rau, si rezulta in mai mult de 2 coloane, nu-mi distruge CSV-ul
+    #Ideal, toata chestia asta ar trebui sa intre intr-un try-except-catch, 
+    # doar ca R se chinuie prea mult inainte sa arunce o eroare
+    # si prefera sa faca matrici si liste neconforme fara nici un sunet pana e prea tarziu.
+    if (ncol(poz_km)>2) {poz_km <- poz_km[,1:2]}
     #Converteste + in . pentru o conversie in float
     poz_km <- poz_km%>%str_split('\\+',simplify=TRUE)
     #Calculeaza restrictia in metri si inapoi in km. Functioneaza si cu 160+0 si cu 160+000.
