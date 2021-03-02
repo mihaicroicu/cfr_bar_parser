@@ -86,15 +86,22 @@ identifica_restrictii <- function(fir){
         }
     #Sparge borna in "start" si "stop"
     poz_km <- fir %>% select(borne)
-    #Minimal clean-up cu regex.
+    #Minimal clean-up cu regex pentru minunile bagate de CFR
     poz_km <- poz_km %>% mutate(borne = str_replace_all(borne,'[[:blank:]|\n]\\([a-zA-Z1-9]*[:blank:]*[a-z1-9]*\\)',''))
     poz_km <- poz_km %>% mutate(borne = str_replace_all(borne,'toată linia','0+000\n0+000'))
+    
+    #Sistemul e in felul urmator: kilometrajul restrictiei este bagat in fiecare celula (borna) in formatul km+mmm sau km+[mm]m. 
+    #Start si stop sunt puse, in fiecare celula, pe randuri diferite.
+    #Nu ne pasa decat de \n, whitespace-ul e eliminat la conversia in integer.
+    
     poz_km <- ((poz_km%>%select(borne))[[1]]%>%str_split('\\n', simplify=TRUE))
+    
     #Fallback  -  daca textul din borna se parseaza rau, si rezulta in mai mult de 2 coloane, nu-mi distruge CSV-ul
     #Ideal, toata chestia asta ar trebui sa intre intr-un try-except-catch, 
     # doar ca R se chinuie prea mult inainte sa arunce o eroare
     # si prefera sa faca matrici si liste neconforme fara nici un sunet pana e prea tarziu.
     if (ncol(poz_km)>2) {poz_km <- poz_km[,1:2]}
+    
     #Converteste + in . pentru o conversie in float
     poz_km <- poz_km%>%str_split('\\+',simplify=TRUE)
     #Calculeaza restrictia in metri si inapoi in km. Functioneaza si cu 160+0 si cu 160+000.
