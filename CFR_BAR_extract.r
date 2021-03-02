@@ -64,7 +64,7 @@ if (length(lista_linii) != docx_tbl_count(real_world)) {
 
 ## Obtine restrictiile
 
-scoate_magistrala<-function(index){
+scoate_magistrala <- function(index){
     #Extrage magistrala
     tabel_restrictii <- tbls[index][[1]]
     fir1 <- tabel_restrictii%>%filter(V3 != '')%>%select(V2,V3,V4)%>%rename(borne=V2,viteza=V3,nume=V4)
