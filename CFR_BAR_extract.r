@@ -13,8 +13,9 @@
 
 if (!require("pacman")) {
     install.packages("pacman")
-    library("pacman")
+    #require("pacman")
     }
+library("pacman")
 pacman::p_load(tidyverse, docxtractr, textreadr, jsonlite)
 pacman::p_load(rvest)
 #Incarca RVEST la sfarsit. Namespace-ul rvest e busit (R!) asa ca rvest::read_html nu merge
@@ -23,12 +24,19 @@ pacman::p_load(rvest)
 #1:Bucureşti 2:Braşov 3:Cluj 4:Constanţa 5:Craiova 6:Galaţi 7:Iaşi 8:Timişoara
 oras <- 1 
 
+args = commandArgs(trailingOnly=TRUE)
+if (length(args)<1) {
+     oras = oras
+     } else {
+     oras = as.integer(args[1])
+}
+
 cfr_web <- read_html('http://cfr.ro/index.php/ct-menu-item-105/ct-menu-item-116')
 
 link <- html_nodes(cfr_web,'.art-button') %>% html_attr('href')
 web_bar_bucuresti <- paste0('http://cfr.ro',link[oras])
 
-print(paste0("Fetching ", web_bar_bucuresti))
+#print(paste0("Fetching ", web_bar_bucuresti))
 fetch_command <- paste0('curl ',web_bar_bucuresti,' -o bar.doc')
 system(fetch_command)
 
@@ -93,22 +101,39 @@ identifica_restrictii <- function(fir){
     #Sistemul e in felul urmator: kilometrajul restrictiei este bagat in fiecare celula (borna) in formatul km+mmm sau km+[mm]m. 
     #Start si stop sunt puse, in fiecare celula, pe randuri diferite.
     #Nu ne pasa decat de \n, whitespace-ul e eliminat la conversia in integer.
+
+
     
-    poz_km <- ((poz_km%>%select(borne))[[1]]%>%str_split('\\n', simplify=TRUE))
+    poz_km <- tryCatch({
+        ((poz_km%>%select(borne))[[1]]%>%str_split('\\n', simplify=TRUE))
+        },
+        error=function(cond){
+          return(matrix(c(NA,NA),ncol=2, nrow=1))
+        })
+
+
     
     #Fallback  -  daca textul din borna se parseaza rau, si rezulta in mai mult de 2 coloane, nu-mi distruge CSV-ul
     #Ideal, toata chestia asta ar trebui sa intre intr-un try-except-catch, 
     # doar ca R se chinuie prea mult inainte sa arunce o eroare
     # si prefera sa faca matrici si liste neconforme fara nici un sunet pana e prea tarziu.
+    if (ncol(poz_km)<2) {poz_km <- cbind(poz_km,NA,NA)}
     if (ncol(poz_km)>2) {poz_km <- poz_km[,1:2]}
-    
+
     #Converteste + in . pentru o conversie in float
     poz_km <- poz_km%>%str_split('\\+',simplify=TRUE)
+    if (ncol(poz_km)<2) {poz_km <- cbind(poz_km,NA,NA)}
+    if (ncol(poz_km)>2) {poz_km <- poz_km[,1:2]}
+
+
     #Calculeaza restrictia in metri si inapoi in km. Functioneaza si cu 160+0 si cu 160+000.
     poz_km <- (as.integer(poz_km[,1])*1000+as.integer(poz_km[,2]))/1000
+
     #R-tidy produce o matrice de 2 coloane x 2*nr_restrictii. Sparge in doua si return df.
     nr_restrictii <- length(poz_km)/2
+
     r_start <- poz_km[1:nr_restrictii]
+
     r_end <- poz_km[(nr_restrictii+1):length(poz_km)]
     identifica_restrictii <- data.frame(r_start = r_start, r_end = r_end)
 }

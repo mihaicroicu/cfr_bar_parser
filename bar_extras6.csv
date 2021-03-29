@@ -1,0 +1,561 @@
+borne,viteza,nume,fir,r_start,r_end,linie
+"8+600
+8+650",30,"St. Chitila
+Cap X, peste sch. 1",1,8.6,8.65,300
+"164+200
+164+500",30,"St. Dârste
+linia 3 directă",1,164.2,164.5,300
+"169+400
+169+600",15,St. Braşov,1,169.4,169.6,300
+"169+864
+183+045",50,"Ax st. Brașov -
+Ax st. Bod",1,169.864,183.045,300
+"179+020
+179+120",30,"Stupini -
+Bod",1,179.02,179.12,300
+"188+190
+190+500",30,"Bod –
+Feldioara",1,188.19,190.5,300
+"194+600
+194+650",50,"Feldioara –
+Apaţa",1,194.6,194.65,300
+"196+300
+207+200",50,"Feldioara -
+Apaţa",1,196.3,207.2,300
+"207+700
+208+600",50,"Apața - 
+Augustin
+și linia 3 directă
+st. Apaţa",1,207.7,208.6,300
+"208+600
+209+100",30,"Apaţa -
+Augustin",1,208.6,209.1,300
+"209+100
+211+500",50,"Apaţa -
+Augustin",1,209.1,211.5,300
+"213+700
+216+100",50,"Apaţa -
+Augustin",1,213.7,216.1,300
+"216+100
+217+300",30,"Apaţa -
+Augustin",1,216.1,217.3,300
+"217+300
+218+700",50,"Apaţa -
+Augustin",1,217.3,218.7,300
+"243+900
+244+000",30,"Racoş -
+Rupea",1,243.9,244,300
+"244+000
+245+200",50,"St. Rupea
+linia 4 directă",1,244,245.2,300
+"245+000
+245+100",50,"Rupea -
+Caţa",1,245,245.1,300
+"252+700
+254+400",50,"St. Cața 
+linia 3 directă și 
+Caţa -
+Beia",1,252.7,254.4,300
+"257+500
+257+600",50,"Cața -
+Beia",1,257.5,257.6,300
+"288+300
+288+574",70,"St. Vânători
+linia 2 directă",1,288.3,288.574,300
+"297+500
+297+700",50,"Albeşti Tîrnava -
+Sighişoara",1,297.5,297.7,300
+"297+500
+299+177",50,"Albeşti Tîrnava -
+Sighişoara
+și linia 3 directă 
+st. Sighișoara",1,297.5,299.177,300
+"308+450
+315+650",120,"Daneș -
+Dumbrăveni",1,308.45,315.65,300
+"324+100
+330+350",120,"Dumbrăveni -
+Mediaș",1,324.1,330.35,300
+"334+594
+344+905",120,"Ax st. Mediaș -
+Ax st. Copșa Mică",1,334.594,344.905,300
+"347+300
+352+400",120,"Copşa Mică -
+Valea Lungă",1,347.3,352.4,300
+"399+623
+412+700",80,"Ax st. Teiuş -
+Ax st. Aiud",1,399.623,412.7,300
+"408+750
+408+800",20,"Teiuş -
+Aiud",1,408.75,408.8,300
+"411+500
+413+700",50,"Teiuş -
+Aiud
+şi linia 4 directă
+St. Aiud ",1,411.5,413.7,300
+"425+900
+427+300",30,"St. Unirea
+linia 3 directă",1,425.9,427.3,300
+"467+800
+469+200",30,"Valea Florilor -
+Boju",1,467.8,469.2,300
+"616+875
+616+925",30,"Vadu Crişului -
+Aleşd",1,616.875,616.925,300
+"169+400
+169+600",15,"Semnalizată ca limitare de viteză.
+Fără inductori.
+Afectează intrări - ieşiri la liniile 3 - 8 Cap X.",2,169.4,169.6,300
+"169+525
+169+610",15,"Nesemnalizată pe teren.
+Afectează intrări - ieşiri la liniile 1 - 3 Cap X.",2,169.525,169.61,300
+"170+350
+170+530",15,"Semnalizată ca limitare de viteză.
+Fără inductori.
+Staţia Braşov  Călători 
+este staţie paralelogram 
+şi linia 4 directă de la 
+ax staţie spre staţia Dârste este pe linia I - 300, 
+iar spre staţia Stupini 
+este pe linia II - 300.",2,170.35,170.53,300
+"183+750
+183+900",50,"Semnalizată ca limitare de viteză.  
+Fără inductori.",2,183.75,183.9,300
+"186+900
+189+100",30,"Semnalizată ca limitare de viteză.  
+Cu inductori în capătul dinspre Feldioara.",2,186.9,189.1,300
+"189+100
+190+750",50,"Semnalizată ca limitare de viteză.
+Fără inductori.",2,189.1,190.75,300
+"190+750
+191+300",30,"Semnalizată ca limitare de viteză.
+Fără inductori.",2,190.75,191.3,300
+"191+300
+191+856",70,"Semnalizată ca limitare de viteză.   
+Fără inductori.",2,191.3,191.856,300
+"192+300
+192+500",15,"Semnalizată ca limitare de viteză.   
+Fără inductori.",2,192.3,192.5,300
+"243+900
+244+000",50,"*Valabil pentru trenurile care au în componență două locomotive cuplate.
+Pod km 243+941.
+Nesemnalizată pe teren.",2,243.9,244,300
+"245+000
+245+100",50,"*Valabil pentru trenurile care au în componență două locomotive cuplate.
+Pod km 245+050.
+Nesemnalizată pe teren.",2,245,245.1,300
+"262+700
+262+900",30,"Fără inductori.
+(Protecție muncitori).",2,262.7,262.9,300
+"288+300
+288+574",70,Semnalizată ca limitare de viteză.,2,288.3,288.574,300
+"297+500
+297+700",50,"*Valabil pentru trenurile care au în componență două locomotive cuplate.
+Pod km 297+609.
+Nesemnalizată pe teren.",2,297.5,297.7,300
+"297+500
+299+177",50,Semnalizată ca limitare de viteză.,2,297.5,299.177,300
+"308+450
+315+650",120,Semnalizată ca limitare de viteză.,2,308.45,315.65,300
+"324+100
+330+350",120,Semnalizată ca limitare de viteză.,2,324.1,330.35,300
+"334+594
+344+905",120,Nesemnalizată pe teren.,2,334.594,344.905,300
+"347+300
+352+400",120,Semnalizată ca limitare de viteză.,2,347.3,352.4,300
+"408+750
+408+800",20,"Semnalizată ca limitare de viteză.
+Viteza se va spori după trecerea locomotivei (vizibilitate trecere la nivel).",2,408.75,408.8,300
+"411+900
+413+500",50,,2,411.9,413.5,300
+"425+900
+427+300",30,Semnalizată ca limitare de viteză.,2,425.9,427.3,300
+"456+500
+456+700",30,,2,456.5,456.7,300
+"490+600
+490+650",50,,2,490.6,490.65,300
+"0+900
+3+500",30,"Semnalizată Cap Chitila cu palete galbene cu diagonală.
+Fără inductori.",2,0.9,3.5,301 F
+toată linia,10,"Linia Variantă D2 
+Post Giulești - 
+Rudeni",1,0,0,301 F1
+"2+800
+2+900",30,"St. Bucureşti Nord -
+Chitila",1,2.8,2.9,301 N
+"7+600
+7+800",30,"St. Hărman 
+linia 4 directă ",1,7.6,7.8,316
+"120+488
+131+315",50,"Ax st. Izvoru Oltului  -
+Ax st. Izvoru Mureșului",1,120.488,131.315,316
+"121+900
+122+200",30,"Izvoru Oltului -
+Izvoru Mureşului",1,121.9,122.2,316
+"161+700
+162+700",30,"St. Ditrău
+linia 3 directă",1,161.7,162.7,316
+"191+330
+191+350",5,"Topliţa -
+Stânceni",1,191.33,191.35,316
+"241+370
+250+241",50,"Aluniş Mureş -
+Reghin
+și linia 2 directă 
+st. Reghin",1,241.37,250.241,316
+"254+900
+255+000",30,"Reghin -
+Dumbrăvioara",1,254.9,255,316
+"276+560
+276+680",20,"Dumbrăvioara -
+Târgu Mureş Nord",1,276.56,276.68,316
+"328+900
+329+100",30,"Lusuș - 
+Gligorești",1,328.9,329.1,316
+"63+000
+65+100",30,"St. Ploieşti Est
+linia 6 directă și
+zonă aparate de cale Cap X + Cap Y",1,63,65.1,500
+"74+500
+74+580",15,"Valea Călugărească -
+Cricov",1,74.5,74.58,500
+"159+220
+159+340",15,"Zoiţa -
+Râmnicu Sărat",1,159.22,159.34,500
+"208+500
+208+550",30,"Focşani -
+Putna Seacă",1,208.5,208.55,500
+"214+600
+214+690",15,"Putna Seacă  -
+Mărăşeşti",1,214.6,214.69,500
+"231+570
+231+610",15,"Pădureni Putna -
+Pufeşti",1,231.57,231.61,500
+"232+300
+233+400",70,"St. Pufeşti
+linia 3 directă",1,232.3,233.4,500
+"240+650
+241+000",15,"Pufeşti -
+Adjud",1,240.65,241,500
+"243+100
+243+250",70,"St. Adjud
+linia 3 directă Cap X",1,243.1,243.25,500
+"246+100
+246+200",70,"St. Adjud
+ linia 3 directă Cap Y",1,246.1,246.2,500
+"63+000
+65+100",30,,2,63,65.1,500
+"74+500
+74+580",15,"*Valabil pentru trenurile care au în componență două locomotive cuplate.
+Nesemnalizată pe teren.",2,74.5,74.58,500
+"159+220
+159+340",15,"*Valabil pentru trenurile care au în componență două locomotive cuplate.
+Nesemnalizată pe teren.",2,159.22,159.34,500
+"162+506
+175+400",70,,2,162.506,175.4,500
+"208+500
+208+550",30,"De la ora 0,00 din 01.IV
+până la ora 15,00 din 02.IV.",2,208.5,208.55,500
+"214+600
+214+690",15,"*Valabil pentru trenurile care au în componență două locomotive cuplate.
+Nesemnalizată pe teren.",2,214.6,214.69,500
+"231+570
+231+610",15,"*Valabil pentru trenurile care au în componență două locomotive cuplate.
+Nesemnalizată pe teren.",2,231.57,231.61,500
+"232+050
+233+400",70,Afectează intrări - ieşiri peste sch. 11 și 18.,2,232.05,233.4,500
+"240+650
+241+000",15,"*Valabil pentru trenurile care au în componență două locomotive cuplate.
+Nesemnalizată pe teren.",2,240.65,241,500
+"246+150
+246+200",70,Afectează intrări - ieşiri peste sch. 2.,2,246.15,246.2,500
+"288+100
+290+400",70,,2,288.1,290.4,500
+"308+677
+308+893",30,"*Valabil pentru trenurile care au în componență două locomotive cuplate.
+Nesemnalizată pe teren.",2,308.677,308.893,500
+"4+000
+8+000",50,"Adjud -
+Urecheşti",1,4,8,504
+"11+600
+11+900",30,"Urecheşti –
+Căiuţi",1,11.6,11.9,504
+"11+640
+11+900",10,"Urecheşti –
+Căiuţi",1,11.64,11.9,504
+"32+300
+32+800",30,"Borzeşti BC - 
+Oneşti",1,32.3,32.8,504
+"38+450
+38+610",10,"Oneşti -
+Târgu Ocna",1,38.45,38.61,504
+"42+300
+43+700",50,"Oneşti -
+Târgu Ocna",1,42.3,43.7,504
+"50+450
+50+550",30,"St. Târgu Ocna
+linia 1 directă, Cap Y",1,50.45,50.55,504
+"53+410
+53+530",10,"Târgu Ocna -
+Dofteana",1,53.41,53.53,504
+"54+190
+54+300",10,"Târgu Ocna -
+Dofteana",1,54.19,54.3,504
+"54+200
+54+750",30,"Târgu Ocna -
+Dofteana BC",1,54.2,54.75,504
+"54+650
+54+720",10,"Târgu Ocna -
+Dofteana",1,54.65,54.72,504
+"55+060
+55+170",10,"Târgu Ocna -
+Dofteana",1,55.06,55.17,504
+"60+400
+60+500",10,"Târgu Ocna -
+Dofteana",1,60.4,60.5,504
+"65+550
+65+750",30,"Dofteana -
+Valea Uzului",1,65.55,65.75,504
+"65+570
+65+710",10,"Dofteana -
+Valea Uzului",1,65.57,65.71,504
+"67+800
+67+850",30,"St. Valea Uzului
+linia 2 directă Cap Y",1,67.8,67.85,504
+"69+220
+69+400",10,Valea Uzului - Comăneşti,1,69.22,69.4,504
+"75+100
+75+300",30,"Comăneşti -
+Asău",1,75.1,75.3,504
+"75+120
+75+238",10,"Comăneşti -
+Asău",1,75.12,75.238,504
+"84+260
+84+360",10,"Asău -
+Goioasa",1,84.26,84.36,504
+"87+860
+87+910",30,"Goioasa -
+Simbrea",1,87.86,87.91,504
+"97+960
+98+060",10,"Simbrea - 
+Palanca",1,97.96,98.06,504
+"105+350
+105+970",30,"Palanca -
+Ghimeş",1,105.35,105.97,504
+"105+720
+105+930",10,"Palanca -
+Ghimeş",1,105.72,105.93,504
+"109+070
+109+200",10,"Ghimeş -
+Lunca de Mijloc",1,109.07,109.2,504
+"4+000
+8+000",50,,2,4,8,504
+"9+600
+11+600",50,,2,9.6,11.6,504
+"11+640
+11+900",10,"*Valabil pentru trenurile remorcate cu două locomotive cuplate.
+Nesemnalizată pe teren.",2,11.64,11.9,504
+"31+400
+35+500",30,,2,31.4,35.5,504
+"0+550
+0+600",10,"St. Comănești
+linia 2 directă Cap X",1,0.55,0.6,505
+"6+700
+6+890",30,"Făurei -
+Jirlău",1,6.7,6.89,600
+"51+300
+51+400",15,"Tătăranu -
+Bordeasca Nouă",1,51.3,51.4,600
+"67+030
+67+120",15,"Bordeasca Nouă -
+Suraia",1,67.03,67.12,600
+"73+300
+73+720",30,"Suraia -
+Condrea",1,73.3,73.72,600
+"247+200
+247+300",30,"Frunzeasca -
+Berheci",1,247.2,247.3,600
+"253+125
+253+175",30,"Frunzeasca -
+Berheci",1,253.125,253.175,600
+"322+000
+323+350",50,"Banca –
+Crasna",1,322,323.35,600
+"323+000
+322+400",70,"Semnalizată ca limitare de viteză.
+Cu inductori de 2000 Hz.",2,323,322.4,600
+"226+560
+226+700",15,"* Valabil pentru trenurile care au în componență două locomotive cuplate.
+Nesemnalizată pe teren.",2,226.56,226.7,602
+"227+200
+227+800",15,,2,227.2,227.8,602
+"19+600
+19+700",30,"Racord Aeroport T1 –
+Baloteşti",1,19.6,19.7,700
+"135+550
+135+610",15,"Ruşeţu -
+Făurei",1,135.55,135.61,700
+"167+400
+167+700",15,"St. Făurei
+(zonă aparate de cale Cap X aferente 
+liniei 4 directe)",1,167.4,167.7,700
+"167+350
+167+800",30,"St. Făurei
+(zonă aparate de cale Cap X aferente 
+liniei 3 directe)",1,167.35,167.8,700
+"226+800
+226+900",15,"Lacu Sărat - 
+Brăila",1,226.8,226.9,700
+"13+071
+16+157",70,,2,13.071,16.157,700
+"226+800
+226+900",15,"*Valabil pentru trenurile care au în componență două locomotive cuplate.
+Nesemnalizată pe teren.",2,226.8,226.9,700
+"246+100
+246+370",30,"*Valabil pentru trenurile care au în componență două locomotive cuplate.
+Nesemnalizată pe teren.",2,246.1,246.37,700
+"132+374
+148+200",50,"Buzău Sud -
+Cilibia
+și linia 2 directă 
+st. Cilibia",1,132.374,148.2,701
+"159+000
+160+500",50,"Rosetti - 
+Făurei
+și linia 1 directă 
+C.A. Rosetti",1,159,160.5,701
+"162+000
+167+350",50,"C.A. Rosetti -
+ Făurei
+(zonă aparate de cale Cap X aferente liniei 
+3 directe)",1,162,167.35,701
+"167+350
+167+800",30,,1,167.35,167.8,701
+"132+374
+158+420",20,"Afectează intrări - ieșiri peste sch. 12, 34, 6, 4 
+st. Buzău Sud Cap Y,
+sch. 3, 7, 11, 14, 10 și 6
+st. Cilibia Cap X + Cap Y,
+sch. 3, 7 și 9 st. Rosetti 
+Cap X.",2,132.374,158.42,701
+"167+400
+167+700",15,"Afectează intrări - ieşiri peste sch. 7, 11, 17, 21, 27, 37 și 39 și la liniile 4 - 8 Cap X.",2,167.4,167.7,701
+"46+450
+55+270",30,,2,46.45,55.27,701
+"242+800
+242+870",30,"Tecuci -
+Barcea",1,242.8,242.87,704
+"271+040
+271+090",15,"Hanu Conachi -
+Independenţa",1,271.04,271.09,704
+"242+800
+242+870",30,"*Valabil pentru trenurile remorcate cu două locomotive cuplate.
+Nesemnalizată pe teren.",2,242.8,242.87,704
+"271+040
+271+090",15,"*Valabil pentru trenurile remorcate cu două locomotive cuplate.
+Nesemnalizată pe teren.",2,271.04,271.09,704
+"5+000
+6+000",20,"Galaţi -
+Tuluceşti",1,5,6,705
+"17+500
+20+000",50,"Tuluceşti - 
+Foltești",1,17.5,20,705
+"27+000
+29+200",30,"Tuluceşti - 
+Foltești",1,27,29.2,705
+"38+500
+38+600",30,"Foltești -
+Tg. Bujor",1,38.5,38.6,705
+"66+950
+67+050",30,"Tg. Bujor -
+Bereşti",1,66.95,67.05,705
+"95+500
+95+600",30,"Bereşti - 
+Bârlad",1,95.5,95.6,705
+"104+943
+104+999",30,"Bârlad -
+Bălăbăneşti",1,104.943,104.999,705
+"0+691
+1+185",5,"Galaţi Brateş - 
+Galaţi Mărfuri",1,0.691,1.185,706 E
+"260+480
+260+915",5,"Galaţi Călători -
+Galaţi  Brateş ",1,260.48,260.915,706 F
+"264+000
+266+300",10,Galaţi Transbordare - Galaţi Largă A,1,264,266.3,706 F
+"0+647
+2+234",5,"Galaţi Brateş -
+Galaţi Bazin",1,0.647,2.234,706 H
+"1+580
+4+340",5,"Galaţi Mărfuri-
+Galaţi Largă A",1,1.58,4.34,706 J
+"260+180
+261+160",5,"Galaţi Călători -
+Galaţi Brateş",1,260.18,261.16,706 K
+"266+300
+270+800",30,"Galaţi Largă A - Frontieră de Stat  
+Pod Prut",1,266.3,270.8,706 K+F
+"271+800
+272+054",15,"St. Galaţi Largă A - Frontieră de Stat  
+Pod Prut ",1,271.8,272.054,706 K+F
+"0+000
+3+662",5,"Racordare C.S.G. -
+Cătuşa",1,0,3.662,706 M
+"3+900
+5+380",10,"St. Barboşi Triaj
+Grupa B  -
+St. Barboşi Călători",1,3.9,5.38,708 A
+"3+280
+4+515",10,"Barboşi Triaj -
+Barboşi Călători",1,3.28,4.515,708 B
+"3+235
+4+656",10,"De la călcâiul schimbătorului numărul 10 St. Barboşi Triaj Grupa B la vârful  schimbătorului numărul 13 A St. Barboşi Călători.
+Nesemnalizată pe teren.",2,3.235,4.656,708 B
+"1+020
+1+060",15,Complex Barboşi,1,1.02,1.06,708 F
+"0+000
+4+700",10,"Ramificaţie Barboşi Port -
+Barboşi Port",1,0,4.7,708 H
+"11+010
+11+060",70,"Bucureşti Băneasa -
+Pantelimon",1,11.01,11.06,800
+"27+850
+27+900",70,"Pasărea -
+Brănești",1,27.85,27.9,800
+firul III,NA,"150+800
+153+500",1,NA,NA,800
+firul III,NA,"163+700
+166+500",1,NA,NA,800
+"22+950
+23+000",70,,2,22.95,23,800
+"47+700
+48+200",100,,2,47.7,48.2,800
+"107+800
+111+730",140,Semnalizată ca limitare de viteză.,2,107.8,111.73,800
+"0+844
+15+500",70,"Ploiești Sud -
+H.M. Zănoaga",1,0.844,15.5,804
+"11+265
+11+520",15,"H.M. Corlățești - 
+H.M. Zănoaga",1,11.265,11.52,804
+"24+600
+43+100",70,"Ax H.M. Drăgănești Ph. -
+Ax H.M. Ialomița",1,24.6,43.1,804
+"43+100
+47+010",60,"H.M. Ialomița -
+Armăşeşti",1,43.1,47.01,804
+"74+550
+74+650",30,"Broşteni –
+Sărăţuica",1,74.55,74.65,804
+"103+500
+103+600",30,"Andrăşeşti -
+Ramificaţie Amara",1,103.5,103.6,804
+"128+250
+128+300",5,"Bucu -
+Ţăndărei",1,128.25,128.3,804
+"135+975
+136+025",5,"Bucu -
+Ţăndărei",1,135.975,136.025,804
+"32+524
+43+100",70,"Fără inductori.
+Nesemnalizată pe teren.",2,32.524,43.1,804

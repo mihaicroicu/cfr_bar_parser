@@ -1,0 +1,220 @@
+borne,viteza,nume,fir,r_start,r_end,linie
+"0+900
+3+500",30,"Semnalizată Cap Chitila cu palete galbene cu diagonală.
+Fără inductori.",2,0.9,3.5,301 F
+toată linia,10,"Linia Variantă D2 
+Post Giulești - 
+Rudeni",1,0,0,301 F1
+"2+800
+2+900",30,"St. Bucureşti Nord -
+Chitila",1,2.8,2.9,301 N
+"19+600
+19+700",30,"Racord Aeroport T1 –
+Baloteşti",1,19.6,19.7,700
+"135+550
+135+610",15,"Ruşeţu -
+Făurei",1,135.55,135.61,700
+"167+400
+167+700",15,"St. Făurei
+(zonă aparate de cale Cap X aferente 
+liniei 4 directe)",1,167.4,167.7,700
+"167+350
+167+800",30,"St. Făurei
+(zonă aparate de cale Cap X aferente 
+liniei 3 directe)",1,167.35,167.8,700
+"226+800
+226+900",15,"Lacu Sărat - 
+Brăila",1,226.8,226.9,700
+"13+071
+16+157",70,,2,13.071,16.157,700
+"226+800
+226+900",15,"*Valabil pentru trenurile care au în componență două locomotive cuplate.
+Nesemnalizată pe teren.",2,226.8,226.9,700
+"246+100
+246+370",30,"*Valabil pentru trenurile care au în componență două locomotive cuplate.
+Nesemnalizată pe teren.",2,246.1,246.37,700
+"132+374
+148+200",50,"Buzău Sud -
+Cilibia
+și linia 2 directă 
+st. Cilibia",1,132.374,148.2,701
+"159+000
+160+500",50,"Rosetti - 
+Făurei
+și linia 1 directă 
+C.A. Rosetti",1,159,160.5,701
+"162+000
+167+350",50,"C.A. Rosetti -
+ Făurei
+(zonă aparate de cale Cap X aferente liniei 
+3 directe)",1,162,167.35,701
+"167+350
+167+800",30,,1,167.35,167.8,701
+"132+374
+158+420",20,"Afectează intrări - ieșiri peste sch. 12, 34, 6, 4 
+st. Buzău Sud Cap Y,
+sch. 3, 7, 11, 14, 10 și 6
+st. Cilibia Cap X + Cap Y,
+sch. 3, 7 și 9 st. Rosetti 
+Cap X.",2,132.374,158.42,701
+"167+400
+167+700",15,"Afectează intrări - ieşiri peste sch. 7, 11, 17, 21, 27, 37 și 39 și la liniile 4 - 8 Cap X.",2,167.4,167.7,701
+"46+450
+55+270",30,,2,46.45,55.27,701
+"11+010
+11+060",70,"Bucureşti Băneasa -
+Pantelimon",1,11.01,11.06,800
+"27+850
+27+900",70,"Pasărea -
+Brănești",1,27.85,27.9,800
+firul III,NA,"150+800
+153+500",1,NA,NA,800
+firul III,NA,"163+700
+166+500",1,NA,NA,800
+"22+950
+23+000",70,,2,22.95,23,800
+"47+700
+48+200",100,,2,47.7,48.2,800
+"107+800
+111+730",140,Semnalizată ca limitare de viteză.,2,107.8,111.73,800
+"0+844
+15+500",70,"Ploiești Sud -
+H.M. Zănoaga",1,0.844,15.5,804
+"11+265
+11+520",15,"H.M. Corlățești - 
+H.M. Zănoaga",1,11.265,11.52,804
+"24+600
+43+100",70,"Ax H.M. Drăgănești Ph. -
+Ax H.M. Ialomița",1,24.6,43.1,804
+"43+100
+47+010",60,"H.M. Ialomița -
+Armăşeşti",1,43.1,47.01,804
+"74+550
+74+650",30,"Broşteni –
+Sărăţuica",1,74.55,74.65,804
+"103+500
+103+600",30,"Andrăşeşti -
+Ramificaţie Amara",1,103.5,103.6,804
+"128+250
+128+300",5,"Bucu -
+Ţăndărei",1,128.25,128.3,804
+"135+975
+136+025",5,"Bucu -
+Ţăndărei",1,135.975,136.025,804
+"32+524
+43+100",70,"Fără inductori.
+Nesemnalizată pe teren.",2,32.524,43.1,804
+"15+500
+15+450",50,"Slobozia Veche -
+Slobozia Sud",1,15.5,15.45,807
+"15+320
+15+180",30,"Slobozia Veche -
+Slobozia Sud",1,15.32,15.18,807
+"24+200
+28+725",30,"Medgidia PC 2 - 
+Ciocârlia",1,24.2,28.725,810
+"55+195
+55+245",15,"Casicea -
+Negru Vodă",1,55.195,55.245,810
+"4+600
+6+400",15,"Medgidia PC2 -
+Antestație ROMCIM
+(CRH RO)",1,4.6,6.4,810 A
+"4+450
+4+500",30,"Medgidia –
+Nicolae Bălcescu",1,4.45,4.5,812
+"13+700
+14+200",50,"Medgidia –
+Nicolae Bălcescu",1,13.7,14.2,812
+"30+300
+30+500",30,"Nicolae Bălcescu –
+Târguşor Dobrogea",1,30.3,30.5,812
+"39+470
+39+775",30,"Târguşor Dobrogea -
+Cogealac",1,39.47,39.775,812
+"62+375
+62+425",50,"Cogealac –
+Mihai Viteazu",1,62.375,62.425,812
+"107+325
+107+375",30,"Babadag -
+Cataloi",1,107.325,107.375,812
+"110+540
+110+640",15,"Babadag -
+Cataloi",1,110.54,110.64,812
+"122+275
+122+375",30,"Babadag -
+Cataloi",1,122.275,122.375,812
+"126+750
+126+850",30,"Babadag -
+Cataloi",1,126.75,126.85,812
+"130+800
+131+000",30,"Cataloi -
+Tulcea Mărfuri",1,130.8,131,812
+"133+000
+133+800",30,"Cataloi -
+Tulcea Mărfuri",1,133,133.8,812
+"134+700
+135+500",30,"Cataloi -
+Tulcea Mărfuri",1,134.7,135.5,812
+firul III,NA,"între sch. 
+26 şi 28 
+şi 
+peste sch. 26       în abatere",1,NA,NA,813
+firul III,NA,"peste 
+sch. 14 
+în abatere",1,NA,NA,813
+"0+000
+2+272",20,"Agigea Nord - 
+Constanța Port Zona C
+(linia COMVEX)",1,0,2.272,813
+"245+070
+245+120",15,"Eforie Sud -
+Costineşti",1,245.07,245.12,813
+"250+500
+250+550",30,"St. Costineşti
+linia 2 directă Cap X",1,250.5,250.55,813
+"0+000
+2+146",20,Nesemnalizată pe teren.,2,0,2.146,813
+"0+000
+1+000",15,"Agigea Ecluză -
+Agigea Sud",1,0,1,813 A
+"1+000
+2+000",5,"St. Agigea Sud
+linia 3 directă, 
+de la schimbătorul numărul 1 
+la schimbătorul numărul FN 15",1,1,2,813 A
+"1+000
+13+300",30,"Dorobanțu -
+Nazarcea -
+Năvodari",1,1,13.3,817
+"13+300
+18+000",15,"Nazarcea -
+Năvodari",1,13.3,18,817
+"18+000
+25+850",30,"Nazarcea - 
+Năvodari 
+și linia 4 directă 
+st. Năvodari",1,18,25.85,817
+"25+850
+27+450",30,"Năvodari -
+Cap Midia",1,25.85,27.45,817
+"31+680
+32+500",30,"Năvodari -
+Cap Midia",1,31.68,32.5,817
+"32+050
+32+900",15,"St. Cap Midia
+între sch. 3 - 51",1,32.05,32.9,817
+"25+850
+32+500",30,Semnalizată ca limitare de viteză.,2,25.85,32.5,817
+"32+150
+32+850",15,Nesemnalizată pe teren.,2,32.15,32.85,817
+"0+100
+0+900",15,"P1 Cap Midia –
+P2 Cap Midia",1,0.1,0.9,817 A
+"0+600
+1+700",15,"Palas -
+Constanţa Mărfuri",1,0.6,1.7,818
+"12+400
+17+600",15,Fără inductori.,2,12.4,17.6,818
+"22+300
+25+850",30,Semnalizată ca limitare de viteză.,2,22.3,25.85,818
