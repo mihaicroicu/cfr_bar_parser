@@ -31,7 +31,7 @@ if (length(args)<1) {
      oras = as.integer(args[1])
 }
 
-cfr_web <- read_html('http://cfr.ro/index.php/ct-menu-item-105/ct-menu-item-116')
+cfr_web <- read_html('https://cfr.ro/ct-menu-item-116-2-2/')
 
 link <- html_nodes(cfr_web,'.art-button') %>% html_attr('href')
 web_bar_bucuresti <- paste0('http://cfr.ro',link[oras])
